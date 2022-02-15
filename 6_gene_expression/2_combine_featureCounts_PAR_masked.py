@@ -1,9 +1,9 @@
 import pandas as pd
 import os
 counts = pd.DataFrame()
-OUTDIR = "/PATH/primaryassembly"
-WRKDIR = "/PATH/chrY"
-NABECDIR = "/PATH/nabec"
+OUTDIR = "$PATH/chromosome_y_expression/requant/primaryassembly"
+WRKDIR = "$PATH/chrY"
+NABECDIR = "$PATH/nabec"
 #get the haplogroup data, which should have the sample ids and should all be male
 haplos = pd.read_csv(f"{WRKDIR}/output_nabec/nabec_haplos.csv")
 haplos['new_id'] = haplos['new_id']+'fctx'
