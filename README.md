@@ -4,7 +4,7 @@
 ---
 
 ### Quick Description:
-#### Project looking at Y chromosome variants, genes and haplogroups in PD. Uses data from AMP-PD, NABEC and UKBioBank. 
+#### Project looking at Y chromosome variants, genes and haplogroups in PD. Uses data from AMP-PD, NeuroX, NABEC and UKBioBank. 
 
 ## 1. Tools and Modules
 #### Tools:
